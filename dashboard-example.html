@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>Dashboard</title>
+  <style type="text/css">
+   body {
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica;
+      background-color: #eee;
+      text-align: center;
+    }
+    ul a {
+      position: relative;
+    }
+    ul#big {
+      margin: 0;
+      margin-top: 30px;
+      padding: 0;
+      font-weight: bold;
+    }
+    ul#big li {
+      list-style: none; 
+    }
+    ul#big li a {
+      color: #222; 
+      font-size: 40px;
+      display: block;
+      text-align: center;
+      text-decoration: none; 
+      padding: 20px;
+    }
+    ul#big li a:hover {
+      color: #eee;
+      background-color: #222;
+    }
+    ul.little {
+      margin: 0;
+      margin-top: 30px;
+      padding: 0;
+      font-weight: bold;
+    }
+    ul.little li {
+      list-style: none; 
+      display: inline-block;
+    }
+    ul.little li a {
+       color: #444; 
+       font-size: 18px;
+       text-align: center;
+       text-decoration: none; 
+       padding: 20px;
+    }
+    ul.little li a:hover {
+      color: #eee;
+      background-color: #222;
+    }
+    #google {
+      margin-top: 30px;
+    }
+    #google input[type=search] {
+      font-size: 30px;
+      width: 350px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <ul id="big">
+    <li><a href="">Tickets</a></li>
+    <li><a href="">Support</a></li>
+    <li><a href="">Errors</a></li>
+    <li><a href="">Wiki</a></li>
+    <li><a href="https://github.com/">GitHub</a></li>
+  </ul>
+  <ul class="little">
+    <li><a href="http://twitter.com/">Twitter</a></li>
+    <li><a href="http://news.ycombinator.com/">Hacker News</a></li>
+    <li><a href="http://www.abc.net.au/news/">ABC</a></li>
+    <li><a href="http://news.bbc.co.uk/">BBC</a></li>
+    <li><a href="http://www.bom.gov.au/products/IDV10450.shtml">BOM</a></li>
+    <li><a href="http://gist.github.com/">Gist</a></li>
+  </ul>
+   <ul class="little">
+    <li><a href="">AB</a></li>
+    <li><a href="">BC</a></li>
+    <li><a href="">DE</a></li>
+    <li><a href="">$$</a></li>
+    <li><a href="http://engineyard.helpserve.com/index.php">EY</a></li>
+  </ul>
+ <div id="google">
+    <form action="http://www.google.com/search" method="get">
+      <input type="search" id="search-bar" name="q" />
+    </form>
+  </div>
+</body>
+</html>
